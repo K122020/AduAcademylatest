@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Adu_Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Login(failed)">
+    <parameter name="rowValue" value="1"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://dgsstcw.aduacademy.in/"/>
+    <classes>
+      <class name="com.adu.lms.HomePage">
+        <methods>
+          <include name="Lms_Login"/>
+          <include name="preTestCase"/>
+        </methods>
+      </class> <!-- com.adu.lms.HomePage -->
+    </classes>
+  </test> <!-- Login(failed) -->
+</suite> <!-- Failed suite [Adu_Suite] -->

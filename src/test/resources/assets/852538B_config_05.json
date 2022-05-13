@@ -1,0 +1,494 @@
+{
+   "ICID": "config",
+   "media": [
+      {
+         "DAMID": "8527156",
+         "source": "thumbsUpBtn.png",
+         "alt": "This is some sample alt text"
+      },
+      {
+         "DAMID": "8527157",
+         "source": "thumbsUpBtnH.png",
+         "alt": "This is some sample alt text"
+      },
+      {
+         "DAMID": "8527154",
+         "source": "thumbsDownBtn.png",
+         "alt": "This is some sample alt text"
+      },
+      {
+         "DAMID": "8527155",
+         "source": "thumbsDownBtnH.png",
+         "alt": "This is some sample alt text"
+      },
+      {
+         "DAMID": "8538145",
+         "source": "ELA_GK1_Phonics_BG_Pattern_8538145.png",
+         "alt": "This is some sample alt text"
+      },
+      {
+         "DAMID": "8539788",
+         "source": "PHO_06_05_Unit_Practice_PIC_WCOM_01_correct_Vanessa.mp3",
+         "alt": "This is some sample alt text"
+      },
+      {
+         "DAMID": "8549571",
+         "source": "01_PHO_04_01_HOT_Practice_wh_WCOM_01_tryAgain.mp3",
+         "alt": "This is some sample alt text"
+      },
+      {
+         "DAMID": "8551569",
+         "source": "00_PHO_02_02_Practice_LongA_HOT_WCOM_05_HayDirection.mp3",
+         "alt": "This is some sample alt text"
+      },
+      {
+         "DAMID": "8551579",
+         "source": "00_PHO_02_02_Practice_LongA_HOT_WCOM_05_hay.png",
+         "alt": "This is some sample alt text"
+      }
+   ],
+   "instanceProps": {
+      "type": "k12_layout_grid",
+      "theme": "",
+      "custom": "",
+      "backgroundImageDAMID": "",
+      "backgroundPatternDAMID": "8538145",
+      "backgroundColor": "",
+      "backgroundGradient": "",
+      "blueBorder": true,
+      "components": [
+         {
+            "id": "prompt_comp",
+            "component": {
+               "instanceProps": {
+                  "type": "k12_content_audio_butt_lite",
+                  "style": {
+                     "theme": "",
+                     "custom": ""
+                  },
+                  "dataReg": "",
+                  "layout": "responsive",
+                  "...1": "small, medium, large, x-large",
+                  "buttonSize": "medium",
+                  "...2": "true, false",
+                  "pulsingOn": true,
+                  "...3": "dark, light",
+                  "colorMode": "dark",
+                  "...4": "dark, light",
+                  "pulseColor": "dark",
+                  "...5": "true, false",
+                  "autoPlay": true,
+                  "mp3": {
+                     "DAMID": "8551569"
+                  }
+               }
+            },
+            "CATTitle": "prompt_comp_LOCKED",
+            "collapsedState": true,
+            "custom": ""
+         },
+         {
+            "id": "image_comp",
+            "component": {
+               "instanceProps": {
+                  "type": "nestedSection",
+                  "rows": [
+                     {
+                        "style": {
+                           "theme": "",
+                           "custom": "display:flex; justify-content:center; align-items:center;",
+                           "backgroundImage": {
+                              "DAMID": ""
+                           },
+                           "backgroundPattern": {
+                              "DAMID": ""
+                           },
+                           "backgroundColor": ""
+                        },
+                        "dataReg": "",
+                        "columns": [
+                           {
+                              "style": {
+                                 "theme": "",
+                                 "custom": "padding: 10px 0 0 10px;",
+                                 "backgroundImage": {
+                                    "DAMID": ""
+                                 },
+                                 "backgroundPattern": {
+                                    "DAMID": ""
+                                 },
+                                 "backgroundColor": ""
+                              },
+                              "dataReg": "",
+                              "width": "11",
+                              "instanceProps": {
+                                 "type": "k12_content_image",
+                                 "layout": "responsive",
+                                 "layoutMinHeight": 0,
+                                 "altTextOverride": "",
+                                 "DAMID": "8551579",
+                                 "startHidden": "no",
+                                 "style": {
+                                    "theme": "",
+                                    "custom": "border-radius: 8px;"
+                                 },
+                                 "data-reg": "",
+                                 "labels": []
+                              },
+                              "collapsedState": true,
+                              "CATTitle": "image"
+                           }
+                        ],
+                        "collapsedState": true,
+                        "CATTitle": "audio_image"
+                     }
+                  ]
+               }
+            },
+            "CATTitle": "image_comp",
+            "collapsedState": true,
+            "custom": "",
+            "dataReg": ""
+         },
+         {
+            "id": "FB_comp",
+            "component": {
+               "instanceProps": {
+                  "type": "k12_container_feedback",
+                  "style": {
+                     "desiredWidth": "L",
+                     "theme": "",
+                     "custom": ""
+                  },
+                  "blueBorder": false,
+                  "USMO": "",
+                  "minHeight": 300,
+                  "numberMode": "integer",
+                  "instruction": {
+                     "header": "",
+                     "body": "",
+                     "readToMe_DAMID": "",
+                     "scrubberSetting": "defaultScrubberActivation"
+                  },
+                  "interactiveComponent": {
+                     "instanceProps": {
+                        "type": "k12_interactive_hotspot_image",
+                        "style": {
+                           "theme": ""
+                        },
+                        "colorMode": "light",
+                        "backgroundDAMID": "",
+                        "backgroundColor": "transparent",
+                        "backgroundHeight": 300,
+                        "imageScale": 80,
+                        "showHover": false,
+                        "multipleSelections": false,
+                        "totalDisplays": [],
+                        "hotspots": [
+                           {
+                              "initialDAMID": "8527156",
+                              "selectedDAMID": "8527157",
+                              "hoverStateDAMID": "",
+                              "feedbackStateDAMID": "",
+                              "useHitArea": false,
+                              "hitAreaTop": 0,
+                              "hitAreaLeft": 0,
+                              "hitAreaWidth": 0,
+                              "hitAreaHeight": 0,
+                              "showImageInBox": false,
+                              "imageLabel": "",
+                              "imageLabelSize": "small",
+                              "top": 60,
+                              "left": 105,
+                              "correctAnswer": true,
+                              "feedbackYoffset": -40,
+                              "feedbackXoffset": 80,
+                              "a11yAnnounce": "choice 1",
+                              "sfxDAMID": "8539788",
+                              "contextualFeedback": "",
+                              "value": 1,
+                              "totalCategories": [],
+                              "CATTitle": "yes",
+                              "collapsedState": true
+                           },
+                           {
+                              "initialDAMID": "8527154",
+                              "selectedDAMID": "8527155",
+                              "hoverStateDAMID": "",
+                              "feedbackStateDAMID": "",
+                              "useHitArea": false,
+                              "hitAreaTop": 0,
+                              "hitAreaLeft": 0,
+                              "hitAreaWidth": 0,
+                              "hitAreaHeight": 0,
+                              "showImageInBox": false,
+                              "imageLabel": "",
+                              "imageLabelSize": "small",
+                              "top": 195,
+                              "left": 105,
+                              "correctAnswer": false,
+                              "feedbackYoffset": -40,
+                              "feedbackXoffset": 80,
+                              "a11yAnnounce": "choice 1",
+                              "sfxDAMID": "8549571",
+                              "contextualFeedback": "",
+                              "value": 1,
+                              "totalCategories": [],
+                              "CATTitle": "no",
+                              "collapsedState": true
+                           }
+                        ]
+                     }
+                  },
+                  "feedback": {
+                     "settings": {
+                        "mode": "instant",
+                        "mandatoryTries": 2,
+                        "wrongFBBehavior": "random",
+                        "display": "modal_window",
+                        "checkSum": {
+                           "totalDisplayDataReg": "",
+                           "correctAnswer": 0
+                        }
+                     },
+                     "correctFB": [
+                        {
+                           "header": "This is Correct Feedback Header #1",
+                           "body": "This is Correct Feedback Body #1",
+                           "audioDAMID": "",
+                           "audioAutoPlay": true,
+                           "scrubberSetting": "defaultScrubberActivation",
+                           "graphicDAMID": "",
+                           "collapsedState": true
+                        }
+                     ],
+                     "wrongFB": [
+                        {
+                           "header": "Incorrect",
+                           "body": "This is incorrect feedback",
+                           "audioDAMID": "",
+                           "audioAutoPlay": true,
+                           "scrubberSetting": "defaultScrubberActivation",
+                           "graphicDAMID": "",
+                           "collapsedState": true
+                        }
+                     ],
+                     "showMeFB": {
+                        "header": "This is the show me feedback Header",
+                        "body": "This is the show me feedback body",
+                        "audioDAMID": "",
+                        "audioAutoPlay": true,
+                        "scrubberSetting": "defaultScrubberActivation",
+                        "graphicDAMID": ""
+                     }
+                  }
+               }
+            },
+            "CATTitle": "FB_comp",
+            "collapsedState": true
+         }
+      ],
+      "areas": [
+         {
+            "id": "prompt_area",
+            "dataReg": "",
+            "style": {
+               "theme": "",
+               "custom": " padding: 20px;",
+               "backgroundImage": {
+                  "DAMID": ""
+               },
+               "backgroundPattern": {
+                  "DAMID": ""
+               },
+               "backgroundColor": "",
+               "backgroundGradient": "",
+               "blueBorder": false
+            },
+            "componentIDs": [
+               {
+                  "id": "prompt_comp",
+                  "collapsedState": true
+               }
+            ],
+            "CATTitle": "prompt_area_LOCKED",
+            "collapsedState": true
+         },
+         {
+            "id": "prompt_area_m",
+            "dataReg": "",
+            "style": {
+               "theme": "",
+               "custom": " display: flex; justify-content: center; align-items: center; padding: 10px;",
+               "backgroundImage": {
+                  "DAMID": ""
+               },
+               "backgroundPattern": {
+                  "DAMID": ""
+               },
+               "backgroundColor": "",
+               "backgroundGradient": "",
+               "blueBorder": false
+            },
+            "componentIDs": [
+               {
+                  "id": "prompt_comp",
+                  "collapsedState": true
+               }
+            ],
+            "CATTitle": "prompt_area_Mobile_LOCKED",
+            "collapsedState": true
+         },
+         {
+            "id": "image_area",
+            "dataReg": "",
+            "style": {
+               "theme": "",
+               "custom": "display: flex; flex-wrap:wrap; justify-content:center; margin:10px;  padding: 5px; border-radius:8px;  border:2px solid rgb(233, 156, 204); ",
+               "backgroundImage": {
+                  "DAMID": ""
+               },
+               "backgroundPattern": {
+                  "DAMID": ""
+               },
+               "backgroundColor": "#fff",
+               "backgroundGradient": "",
+               "blueBorder": false
+            },
+            "componentIDs": [
+               {
+                  "id": "image_comp",
+                  "collapsedState": true
+               },
+               {
+                  "id": "FB_comp",
+                  "collapsedState": true
+               }
+            ],
+            "CATTitle": "imageFB_area_LOCKED",
+            "collapsedState": true
+         }
+      ],
+      "grid": [
+         {
+            "layoutName": "Mobile Layout",
+            "spacing": "0",
+            "rows": [
+               "auto",
+               "auto"
+            ],
+            "columns": [
+               "100%"
+            ],
+            "cells": [
+               [
+                  {
+                     "area": "prompt_area_m"
+                  }
+               ],
+               [
+                  {
+                     "area": "image_area"
+                  }
+               ]
+            ],
+            "index": 0,
+            "newLayout": false,
+            "propsTarg": [
+               "instanceProps"
+            ],
+            "breakPoint": 0
+         },
+         {
+            "layoutName": "Desktop Layout",
+            "spacing": "0",
+            "rows": [
+               "auto",
+               "auto"
+            ],
+            "columns": [
+               "10%",
+               "40%",
+               "40%",
+               "10%"
+            ],
+            "cells": [
+               [
+                  {
+                     "area": "prompt_area"
+                  },
+                  {
+                     "area": "image_area"
+                  },
+                  {
+                     "area": "image_area"
+                  },
+                  {
+                     "area": "Empty"
+                  }
+               ],
+               [
+                  {
+                     "area": "Empty"
+                  },
+                  {
+                     "area": "image_area"
+                  },
+                  {
+                     "area": "image_area"
+                  },
+                  {
+                     "area": "Empty"
+                  }
+               ]
+            ],
+            "index": 1,
+            "newLayout": false,
+            "propsTarg": [
+               "instanceProps"
+            ],
+            "breakPoint": "700"
+         }
+      ],
+      "features": [],
+      "universalModal": []
+   },
+   "CATMeta": {
+      "notes": {
+         "displays": [
+            [
+               {
+                  "uid": "note1",
+                  "text": "Sample Note.",
+                  "left": "100px",
+                  "top": "100px",
+                  "width": 196,
+                  "height": 196,
+                  "expanded": true,
+                  "zindex": "15"
+               }
+            ]
+         ],
+         "masterNote": {
+            "header": "Sample Header",
+            "text": "Sample text..."
+         }
+      },
+      "history": [
+         {
+            "user": "gkumar",
+            "timestamp": "2021-07-21T08:44:28.965Z"
+         },
+         {
+            "user": "gkumar",
+            "timestamp": "2021-07-22T04:19:28.183Z"
+         },
+         {
+            "user": "Slideshow Separator Automation",
+            "history": "2021-11-12T14:45:22.740Z"
+         }
+      ],
+      "devNetLocation_MacOS": "smb:///hrn-prod-nas2/prod_dev/PD_TEST_WEBROOTS/DEVNET/HTDOCS/CAT/users/_K1_HV/GK_Phonics/Unit_02/Lesson_02/00_PHO_02_02_Practice_LongA_HOT/",
+      "devNetLocation_Windows": "\\hrn-prod-nas2\\prod_dev\\PD_TEST_WEBROOTS\\DEVNET\\HTDOCS\\CAT\\users\\_K1_HV\\GK_Phonics\\Unit_02\\Lesson_02\\00_PHO_02_02_Practice_LongA_HOT\\"
+   }
+}
